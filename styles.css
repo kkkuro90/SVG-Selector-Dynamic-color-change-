@@ -1,0 +1,172 @@
+[data-color-type="bg"] { fill: #8FD2FC; }
+[data-color-type="primary"] { fill: #023876; }
+[data-color-type="accent"] { fill: #8FD2FC; }
+[data-color-type="text"] { fill: #FFFFFF; }
+
+
+.campaign-gazprom [data-color-type="bg"] { fill: #FFFFFF; }
+.campaign-gazprom [data-color-type="primary"] { fill: #0489C6; }
+.campaign-gazprom [data-color-type="accent"] { fill: #E5F2F8; }
+.campaign-gazprom [data-color-type="text"] {fill: #333333; }
+
+/* Роснефть */
+.campaign-rosneft [data-color-type="bg"] { fill: #FFFFFF; }
+.campaign-rosneft [data-color-type="primary"] { fill: #00A0E3; }
+.campaign-rosneft [data-color-type="text"] {fill: #000000; }
+.campaign-rosneft [data-color-type="accent"] { fill: #003D4F; }
+
+/* Россети */
+.campaign-rosseti [data-color-type="bg"] { fill: #F2F2F2; }
+.campaign-rosseti [data-color-type="primary"] { fill: #FF0000; }
+.campaign-rosseti [data-color-type="text"] {fill: #333333; }
+.campaign-rosseti [data-color-type="accent"] { fill: #F2F2F2; }
+
+.image_name
+{
+    position: absolute;
+    width: 269px;
+    height: 55px;
+    left: 215px;
+    top: 56px;
+    
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    
+    color: #023876; 
+}
+.image_standart
+{
+    position: absolute;
+    width: 206px;
+    height: 42px;
+    left: 247px;
+    top: 137px;
+
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #023876;
+}
+.image_container
+{
+    position: absolute;
+    width: 700px;
+    height: 667.5px;
+    left: 0px;
+    top: 129px;
+}
+.discription
+{
+    position: absolute;
+    width: 606px;
+    height: 748px;
+    left: 47px;
+    top: 809px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.disctiption_disc
+{
+    position: absolute;
+    width: 225px;
+    height: 45px;
+    left: 190px;
+    top: 25px;
+
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.decor
+{
+    position: absolute;
+    width: 497.86px;
+    height: 177.48px;
+    left: 101px;
+    top: 22px;
+}
+.logo_1
+{
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    left: 505px;
+    top: 1422px;
+    
+    background: url(svg/logo.svg);
+    background-blend-mode: plus-lighter;
+}
+.decor_text
+{
+    position: absolute;
+    width: 467px;
+    height: 80px;
+    left: 131.86px;
+    top: 22px;
+    
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+.svg_background
+{
+    position: relative;
+    width: 700px;
+    height: 1617px;
+    right: 9px;
+    
+    background: #023876;    
+}
+.frame_1 /* Frame 1 */
+{
+    position: absolute;
+    width: 615px;
+    height: 440px;
+    left: 43px;
+    top: 261px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;    
+}
+.frame_11 /* Frame 11 */
+{
+    position: absolute;
+    width: 700px;
+    height: 629px;
+    left: 0px;
+    top: 129px;
+    
+    background: #8FD2FC;    
+}
+[data-color-type] {
+    transition: 
+      fill 0.5s ease,         /* Для SVG */
+      stroke 0.5s ease;       /* Если нужно менять обводку */
+}
+
